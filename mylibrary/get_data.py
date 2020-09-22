@@ -10,10 +10,12 @@ import matplotlib.pyplot as plt
 #statistic
 from scipy import stats
 
-#encoder
+
 
 import warnings 
 warnings.filterwarnings("ignore")
+
+
 
 def ambilcsv():
     return pd.read_csv("../../Data/Raw/kc_house_data.csv",usecols=['date', 'price', 'bedrooms', 'bathrooms', 'sqft_living',
